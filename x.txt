@@ -1,0 +1,84 @@
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+					<img class="me-2" src="<?=base_url() ?>assets/img/mikrotik.png" width="40" height="40" />
+					<span class="fs-4">Routers TVIP-ASA</span>
+				</a>
+				
+				<ul class="nav nav-pills">
+					<!--<li class="nav-item">
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+					<i class="fa fa-user"></i>&nbsp;<?php // echo $this->session->userdata('name') ?>
+						</button>
+						<div class="collapse" id="home-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li>
+									<a href="<?=base_url().'logout' ?>" class="dropdown-item link-dark rounded">Log Out</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item dropdown no-arrow">
+						<button class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+							<i class="fa fa-user"></i>&nbsp;
+							<?php
+							if ($this->session->userdata('status') == 'login'){
+								?>
+							<i class="fas fa-circle blink" style="color: green"></i> &nbsp;
+							<?php }?>
+							<span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('name') ?></span>
+						</button>
+						<ul class="dropdown-menu">
+						<li>
+								<a class="dropdown-item" href="<?=base_url().'logout' ?>">
+									<i class="fas fa-sign-out-alt"></i>&nbsp; Log Out</a></li>
+						</ul>
+					</li>
+				</ul>
+			</header>
+			
+			
+			
+			
+			
+			
+			
+			
+			<?php
+								/*$this->load->library('Ping');
+								foreach($routers as $row){
+									$ip = $row->ip;
+									$this->Ping = new Ping($ip);
+									$latency = $this->Ping->ping();
+								*/	
+									
+
+						?>
+								<!--<tr>
+									<td><b><?php echo $row->name ?></b></td>
+									<td><b><?php echo $row->ip ?></b></td>-->
+								<?php //if (($this->Ppping < 0) || ($ping < 0)) { ?>
+								<?php //if ($latency == 0) { ?>
+									<!--<td class="text-center">
+										<i class="fa fa-arrow-circle-down blink fa-2x" style="color: red"></i>
+									</td>	
+									<td class="text-center">
+										<b ><?php // echo $latency ?></b>
+										<b >Timed Out</b>
+									</td>-->
+								<?php // }else{?>
+									<!--<td class="text-center">
+										<i class="fa fa-arrow-circle-up blink fa-2x" style="color: green"></i>
+									</td>
+									<td class="text-center">
+										<b> <?php echo $latency ?> ms</b>
+									</td>-->
+								<?php //} ?>
+									<!--<td>
+										<a href="javascript:void(0)" class="btn btn-warning btn-sm"  onclick="reboot('<?=$row->ip ?>')" title="Reboot">
+											<i class="fa fa-retweet"></i><b> Reboot</b>
+										</a>
+										<a href="javascript:void(0)" class="btn btn-warning btn-sm"  onclick="showdhcp('<?=$row->ip ?>')">
+											<i class="fa fa-book"></i><b> Show DHCP</b>
+										</a>
+									</td>
+								</tr>-->
+							<?php // } ?>
